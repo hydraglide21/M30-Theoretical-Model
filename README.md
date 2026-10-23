@@ -20,7 +20,11 @@ La version **V10.1** représente la version de référence auditée par exécuti
 | **B** | Topologie 1D NH | $W=1$, Skin $\ge 98.45\%$, $V_{0,c}=2$ | **Validé par exécution** |
 | **C** | Corner Skin 2D | $80.5\%$ quadrant $5\times 5$, Jauge $S_{2D}$ trivial | **Validé par exécution** |
 | **D** | Lubrification | $\overline{Q}=0.2088$ (+25.3%), $C=-1.3827$ | **Validé** (Réserve $kH_0$) |
-| **E** | Advection-Diffusion | $\alpha=\frac{1}{2}\ln(1+Pe)$, $G_{\max}\approx 1.005$ | **Validé par exécution** |
+| **E** | Advection-Diffusion | $\alpha=\frac{1}{2}\ln(1+Pe)$, $G_{\max}\approx 1.005$ | **Validé par exécution** | ## Visualisation Géométrique & Spectrale : Opérateur de Navier-Stokes et Effet de Peau
+
+![Visualisation Navier-Stokes et Hatano-Nelson](navier_stokes_m30.jpg)
+
+*Représentation non-normale de l'opérateur, du pseudospectre, et de la localisation asymétrique des états propres (Piste E).*
 | **F** | Rebond LQC | $R_b=40.59$, Transmissions $\approx 1$, $n_s=-0.0358$ | **Validé avec réserves** |
 
 > **Note sur l'Unification :** La jauge de similitude $S = \operatorname{diag}(e^{-\alpha x})$ assure l'unité conceptuelle entre les pistes B, C et E. Le lien avec la cosmologie LQC (Piste F) est qualifié comme une **analogie structurelle**.
