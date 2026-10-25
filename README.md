@@ -63,26 +63,24 @@ L'application web dynamique permettant d'explorer les 6 pistes et la synthèse d
 
 # Model M30 — Unification Géométrique, Spectrale & Cosmologique
 
-Bienvenue sur le dépôt officiel du **Modèle M30**. Ce projet explore un cadre unifié combinant élasticité discrète, stabilité spectrale et cosmologie de rebond autonome.
+Bienvenue sur le dépôt officiel du **Modèle M30**. Ce projet explore un cadre unifié combinant élasticité discrète, stabilité spectrale et cosmologie de rebond
+
+# Model M30 — Unification Élastique (V12.3)
+
+Bienvenue sur le dépôt officiel du **Modèle M30 Unifié Élastique**. Ce projet présente le module d'élasticité discrète fondé sur le nombre d'or et la flexion de Keating.
 
 ---
 
-## 📂 Structure et Scripts du Projet
+## 📂 Fichiers du Projet
 
-Le dépôt regroupe les modules clés du modèle M30 :
-
-| Fichier / Version | Description / Objectifs atteints |
-| :--- | :--- |
-| `m30_unified_elastic_v12.3.py` | **Modèle Élastique Unifié V12.3** : Flexion de Keating, invariance par rotation, isotropie de Zener parfaite ($A=1$) et barrière thermodynamique. |
-| **V1.6.x — V1.7.x** | Validation du fond cosmologique, rebond autonome ($H_b = 0$, $\dot{H}_b > 0$) et introduction des tests géométriques. |
-| **V1.8.x — V1.9.2** | Système matriciel couplé $(\mathcal{R}, \mathcal{S})$ et bancs d'essais comparatifs des profils de couplage avec lissage $C^2$. |
+* `m30_unified_elastic_v12.3.py` : **Modèle Élastique Unifié V12.3** — Flexion de Keating, invariance par rotation, isotropie de Zener parfaite ($A = 1$) et barrière thermodynamique.
 
 ---
 
 ## 🚀 Utilisation
 
-Tous les scripts sont développés en **Python 3.8+** et n'utilisent que des bibliothèques standard (ou `numpy` pour le calcul matriciel du modèle élastique).
+Développé en **Python 3.8+** avec `numpy` pour le calcul matriciel.
 
-Pour exécuter l'audit du modèle élastique :
+Pour exécuter l'audit complet du modèle élastique :
 ```bash
 python m30_unified_elastic_v12.3.py
